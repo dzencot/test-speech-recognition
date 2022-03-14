@@ -1,9 +1,10 @@
 // @ts-check
 
-import Example from './Example.js';
+import Speech from './Speech.js';
+import 'bootstrap';
 
 export default () => {
   const element = document.getElementById('point');
-  const obj = new Example(element);
+  const obj = new Speech(element);
   obj.init();
 };
